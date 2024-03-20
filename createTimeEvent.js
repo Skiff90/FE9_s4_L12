@@ -12,7 +12,7 @@ function createDateEvent(planedData) {
 
 // console.log(createDateEvent('February 12, 2024'))
 // console.log(createDateEvent('May 22, 2007'))
-// Створення події на допомогою передачі аргументів по черзі
+// Створення події за допомогою передачі аргументів по черзі
 // (рік,місяць,день,години,хвилини,секунди,мілісекунди)
 // Функція створює цілком запланований евент,7 параметрів.
 // В параметрах передав значення по дефолту
@@ -22,4 +22,4 @@ function createFullDetaliedEvent(year=1970,month=0,day=1,hours=12,minute=0,secon
     return eventData
 }
 console.log(createFullDetaliedEvent())
-console.log(createFullDetaliedEvent(2024,2,10,9,0,20,100))
+console.log(createFullDetaliedEvent(2024,2,10))
