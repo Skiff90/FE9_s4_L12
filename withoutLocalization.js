@@ -9,3 +9,4 @@ for (let i = 0; i < 100000; i++) {
 
 let end = new Date();
 console.log(`Цикл зайняв ${end - start} мс`);
+console.log("hello");
